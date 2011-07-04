@@ -1,0 +1,340 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Accept	sock.cpp	/^mySock::Accept(int listen_sock)$/;"	f	class:mySock
+Accept	sock.cpp	/^mySock::Accept(int sock, SA *addr, socklen_t *addrlen)$/;"	f	class:mySock
+BUFFSIZE	stuff/sum_fork_smpl/olege.h	29;"	d
+BUFSIZE	epoll.cpp	/^const int BUFSIZE = 8192;	\/* buffer size for reads and writes *\/$/;"	v
+Bind	sock.cpp	/^mySock::Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f	class:mySock
+Bind	sock.cpp	/^mySock::Bind(int listen_sock)$/;"	f	class:mySock
+CFLAGS	Makefile	/^CFLAGS		= -O2 -ggdb # -Wall      #danger, need -Wall key!!!$/;"	m
+CFLAGS	test/Makefile	/^CFLAGS		= -O2 -ggdb -Wall$/;"	m
+COUNT_KEYS	pipe.cpp	/^const int COUNT_KEYS = 512;$/;"	v
+COUNT_STR	pipe.cpp	/^const int COUNT_STR = 1024;$/;"	v
+CXX	Makefile	/^CXX		= g++$/;"	m
+CXX	test/Makefile	/^CXX		= g++$/;"	m
+Close	sock.cpp	/^mySock::Close(int sockfd)$/;"	f	class:mySock
+Connect	sock.cpp	/^mySock::Connect(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f	class:mySock
+Connect	sock.cpp	/^mySock::Connect(int listen_sock)$/;"	f	class:mySock
+DEBUG	Makefile	/^DEBUG		= -DDEBUG$/;"	m
+DEPENDS	Makefile	/^DEPENDS = mydata.cc tqueue.cc thread2.cc      ### i can't set this!!!$/;"	m
+DIR_MODE	stuff/sum_fork_smpl/olege.h	37;"	d
+Epoll_create	epoll.cpp	/^myEpoll::Epoll_create(int size)$/;"	f	class:myEpoll
+Epoll_ctl	epoll.cpp	/^myEpoll::Epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)$/;"	f	class:myEpoll
+Epoll_wait	epoll.cpp	/^myEpoll::Epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout)$/;"	f	class:myEpoll
+FILE_MODE	stuff/sum_fork_smpl/olege.h	35;"	d
+Inet_ntop	sock.cpp	/^mySock::Inet_ntop(char *strptr, size_t len)$/;"	f	class:mySock
+Inet_ntop	sock.cpp	/^mySock::Inet_ntop(int family, const void *addrptr, char *strptr, size_t len)$/;"	f	class:mySock
+Inet_pton	sock.cpp	/^mySock::Inet_pton(const char *strptr)$/;"	f	class:mySock
+Inet_pton	sock.cpp	/^mySock::Inet_pton(int family, const char *strptr, void *addrptr)$/;"	f	class:mySock
+LDFLAGS	Makefile	/^LDFLAGS		= -lpthread -lpcre$/;"	m
+LDFLAGS	test/Makefile	/^LDFLAGS		= -lpthread -lpcre$/;"	m
+LISTENQ	sock.hpp	/^const int LISTENQ   = 1024;	\/* 2nd argument to listen() *\/$/;"	v
+LISTENQ	stuff/sum_fork_smpl/olege.h	34;"	d
+Listen	sock.cpp	/^mySock::Listen(int fd, int backlog)$/;"	f	class:mySock
+Listen	sock.cpp	/^mySock::Listen(int listen_sock)$/;"	f	class:mySock
+MAXLINE	epoll.cpp	/^const int MAXLINE = 4096;	\/* max text line length *\/$/;"	v
+MAXLINE	main.cpp	/^const int MAXLINE = 4096;$/;"	v
+MAXLINE	stuff/sum_fork_smpl/olege.h	28;"	d
+MAXLINE	test/tepoll.cpp	/^const int MAXLINE = 4096;$/;"	v
+MAX_EVENTS	epoll.hpp	/^const int MAX_EVENTS = 3;$/;"	v
+MAX_EVENTS	test/client.cpp	/^const int MAX_EVENTS = 7;$/;"	v
+NYI	stuff/lib_misc.erl	/^-define(NYI(X),(begin $/;"	d
+OBJECTS	Makefile	/^OBJECTS = main.o epoll.o pcre.o pipe.o sock.o$/;"	m
+SA	epoll.hpp	/^typedef struct sockaddr SA;$/;"	t	typeref:struct:sockaddr
+SA	sock.hpp	/^typedef struct sockaddr SA;$/;"	t	typeref:struct:sockaddr
+SA	stuff/sum_fork_smpl/olege.h	31;"	d
+SERV_PORT	sock.hpp	/^const int SERV_PORT = 9877;$/;"	v
+SERV_PORT	stuff/sum_fork_smpl/olege.h	40;"	d
+SERV_PORT_STR	stuff/sum_fork_smpl/olege.h	41;"	d
+S_PORT	test/client.cpp	/^const int S_PORT = 9877;$/;"	v
+Sigfunc	stuff/sum_fork_smpl/olege.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sock_ntop	sock.cpp	/^mySock::Sock_ntop()$/;"	f	class:mySock
+Sock_ntop	sock.cpp	/^mySock::Sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f	class:mySock
+Socket	sock.cpp	/^mySock::Socket(int family, int type, int protocol)$/;"	f	class:mySock
+ThreadQueue	tqueue.cc	/^ThreadQueue<T>::ThreadQueue(unsigned int o) throw()$/;"	f	class:ThreadQueue
+ThreadQueue	tqueue.cc	/^class ThreadQueue : private boost::noncopyable {$/;"	c	file:
+__EPOLL_HPP__	epoll.hpp	2;"	d
+__MYDATA_CC__	mydata.cc	2;"	d	file:
+__PCRE_HPP__	pcre.hpp	2;"	d
+__PIPE_HPP__	pipe.hpp	2;"	d
+__SOCK_HPP__	sock.hpp	2;"	d
+__THREAD2_CC__	stuff/thread2_pipe.cc	2;"	d	file:
+__THREAD2_CC__	thread2.cc	2;"	d	file:
+__TQUEUE_CC__	tqueue.cc	2;"	d	file:
+arg1	stuff/sum_fork_smpl/sum.h	/^  long	arg1;$/;"	m	struct:args
+arg2	stuff/sum_fork_smpl/sum.h	/^  long	arg2;$/;"	m	struct:args
+args	stuff/sum_fork_smpl/sum.h	/^struct args {$/;"	s
+argv1	main.cpp	/^char *argv1 = NULL;$/;"	v
+argv2	pipe.hpp	/^	char **argv2;$/;"	m	class:myPipe
+bad_function	stuff/lib_misc.erl	/^bad_function(A, _) ->$/;"	f	module:lib_misc
+cgi_run	stuff/thread2_pipe.cc	/^cgi_run(const std::string& path, const int sockfd)$/;"	f
+cgi_run	thread2.cc	/^cgi_run(char* path, int sockfd)$/;"	f
+cliaddr	sock.hpp	/^	struct sockaddr_in cliaddr;$/;"	m	class:mySock	typeref:struct:mySock::sockaddr_in
+clilen	sock.hpp	/^	socklen_t clilen;$/;"	m	class:mySock
+close_cin	pipe.cpp	/^myPipe::close_cin()$/;"	f	class:myPipe
+collect_word	stuff/lib_misc.erl	/^collect_word([H|T]=All, L) ->$/;"	f	module:lib_misc
+collect_word	stuff/lib_misc.erl	/^collect_word([], L) ->$/;"	f	module:lib_misc
+compile	pcre.cpp	/^myPCRE::compile(const std::string &pattern  )$/;"	f	class:myPCRE
+complete	stuff/lib_misc.erl	/^complete(Str, L) ->$/;"	f	module:lib_misc
+cond	tqueue.cc	/^	pthread_cond_t		cond;$/;"	m	class:ThreadQueue	file:
+conn_sock	epoll.hpp	/^	int listen_sock, conn_sock;$/;"	m	class:myEpoll
+conn_sock	sock.hpp	/^	int listen_sock, conn_sock;$/;"	m	class:mySock
+consult	stuff/lib_misc.erl	/^consult(File) ->$/;"	f	module:lib_misc
+consult1	stuff/lib_misc.erl	/^consult1(S) ->$/;"	f	module:lib_misc
+daemon_proc	stuff/my_lib.cpp	/^int		daemon_proc;		\/* set nonzero by daemon_init() *\/$/;"	v
+delay	test/client.cpp	/^void delay(int n)$/;"	f
+deliberate_error	stuff/lib_misc.erl	/^deliberate_error(A) ->$/;"	f	module:lib_misc
+deliberate_error1	stuff/lib_misc.erl	/^deliberate_error1(A) ->$/;"	f	module:lib_misc
+doFork	pipe.cpp	/^myPipe::doFork()$/;"	f	class:myPipe
+doWait	pipe.cpp	/^myPipe::doWait()$/;"	f	class:myPipe
+do_f	stuff/lib_misc.erl	/^do_f(Parent, Ref, F, I) ->					    $/;"	f	module:lib_misc
+do_f1	stuff/lib_misc.erl	/^do_f1(Parent, Ref, F, I) ->					    $/;"	f	module:lib_misc
+downcase_char	stuff/lib_misc.erl	/^downcase_char(X)                       -> X.$/;"	f	module:lib_misc
+downcase_char	stuff/lib_misc.erl	/^downcase_char(X) when $A =< X, X =< $Z -> X+ $a - $A;$/;"	f	module:lib_misc
+downcase_str	stuff/lib_misc.erl	/^downcase_str(Str) -> map(fun downcase_char\/1, Str).$/;"	f	module:lib_misc
+dump	stuff/lib_misc.erl	/^dump(File, Term) ->$/;"	f	module:lib_misc
+duplicates	stuff/lib_misc.erl	/^duplicates(X) ->  find_duplicates(sort(X), []).$/;"	f	module:lib_misc
+epollFun	epoll.hpp	/^typedef void (epollFun) (const int );$/;"	t
+epollfd	epoll.hpp	/^	int epollfd;$/;"	m	class:myEpoll
+err_doit	stuff/my_lib.cpp	/^err_doit(int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_quit	stuff/my_lib.cpp	/^err_quit(const char *fmt, ...)$/;"	f
+err_sys	stuff/my_lib.cpp	/^err_sys(const char *fmt, ...)$/;"	f
+error_test	stuff/http.erl	/^error_test() ->$/;"	f	module:http
+error_test_server	stuff/http.erl	/^error_test_server() ->$/;"	f	module:http
+error_test_server_loop	stuff/http.erl	/^error_test_server_loop(Socket) ->$/;"	f	module:http
+ev	epoll.hpp	/^	struct epoll_event ev, events[MAX_EVENTS];$/;"	m	class:myEpoll	typeref:struct:myEpoll::epoll_event
+eval_file	stuff/lib_misc.erl	/^eval_file(File) ->$/;"	f	module:lib_misc
+eval_file	stuff/lib_misc.erl	/^eval_file(S, Line, B0) ->$/;"	f	module:lib_misc
+events	epoll.hpp	/^	struct epoll_event ev, events[MAX_EVENTS];$/;"	m	class:myEpoll	typeref:struct:myEpoll::
+every	stuff/lib_misc.erl	/^every(Pid, Time, Fun) ->$/;"	f	module:lib_misc
+every_loop	stuff/lib_misc.erl	/^every_loop(Pid, Time, Fun) ->$/;"	f	module:lib_misc
+exists	stuff/lib_misc.erl	/^exists(File) ->$/;"	f	module:lib_misc
+extract_attribute	stuff/lib_misc.erl	/^extract_attribute(File, Key) ->$/;"	f	module:lib_misc
+file2term	stuff/lib_misc.erl	/^file2term(File) ->$/;"	f	module:lib_misc
+file_size_and_type	stuff/lib_misc.erl	/^file_size_and_type(File) ->$/;"	f	module:lib_misc
+filedes	pipe.hpp	/^	int filedes[2];$/;"	m	class:myPipe
+find_duplicates	stuff/lib_misc.erl	/^find_duplicates([H,H|T], L) ->$/;"	f	module:lib_misc
+find_duplicates	stuff/lib_misc.erl	/^find_duplicates([H,H|T], [H|_]=L) ->$/;"	f	module:lib_misc
+find_duplicates	stuff/lib_misc.erl	/^find_duplicates([], L) ->$/;"	f	module:lib_misc
+find_duplicates	stuff/lib_misc.erl	/^find_duplicates([_|T], L) ->$/;"	f	module:lib_misc
+first	stuff/lib_misc.erl	/^first([H|T]) -> [H|first(T)].$/;"	f	module:lib_misc
+first	stuff/lib_misc.erl	/^first([_])   -> [];$/;"	f	module:lib_misc
+flush_buffer	stuff/lib_misc.erl	/^flush_buffer() ->$/;"	f	module:lib_misc
+for	stuff/lib_misc.erl	/^for(I, Max, F)   -> [F(I)|for(I+1, Max, F)].$/;"	f	module:lib_misc
+for	stuff/lib_misc.erl	/^for(Max, Max, F) -> [F(Max)];$/;"	f	module:lib_misc
+foreachWordInFile	stuff/lib_misc.erl	/^foreachWordInFile(File, F) ->$/;"	f	module:lib_misc
+foreachWordInString	stuff/lib_misc.erl	/^foreachWordInString(Str, F) ->$/;"	f	module:lib_misc
+gather	stuff/lib_misc.erl	/^gather([Pid|T], Ref) ->$/;"	f	module:lib_misc
+gather	stuff/lib_misc.erl	/^gather([], _) ->$/;"	f	module:lib_misc
+gather1	stuff/lib_misc.erl	/^gather1(0, _, L) -> L;$/;"	f	module:lib_misc
+gather1	stuff/lib_misc.erl	/^gather1(N, Ref, L) ->$/;"	f	module:lib_misc
+getListen	sock.cpp	/^mySock::getListen()$/;"	f	class:mySock
+getMsg	mydata.cc	/^myData::getMsg() const$/;"	f	class:myData
+get_cin	pipe.cpp	/^myPipe::get_cin()$/;"	f	class:myPipe
+get_line	stuff/lib_misc.erl	/^get_line([$\\n|T], L) -> {reverse(L), T};$/;"	f	module:lib_misc
+get_line	stuff/lib_misc.erl	/^get_line([H|T], L)   -> get_line(T, [H|L]);$/;"	f	module:lib_misc
+get_line	stuff/lib_misc.erl	/^get_line([], L)      -> {reverse(L), []}.$/;"	f	module:lib_misc
+get_word	stuff/lib_misc.erl	/^get_word([H|T]) ->$/;"	f	module:lib_misc
+get_word	stuff/lib_misc.erl	/^get_word([]) ->$/;"	f	module:lib_misc
+getfd	mydata.cc	/^myData::getfd() const$/;"	f	class:myData
+glurk	stuff/lib_misc.erl	/^glurk(X, Y) ->$/;"	f	module:lib_misc
+handler	epoll.hpp	/^	epollFun *handler;$/;"	m	class:myEpoll
+have_common_prefix	stuff/lib_misc.erl	/^have_common_prefix(L) ->$/;"	f	module:lib_misc
+have_common_prefix	stuff/lib_misc.erl	/^have_common_prefix([]) -> no;$/;"	f	module:lib_misc
+hello	epoll.cpp	/^char hello[] = "Hello, People!\\r\\n";$/;"	v
+http	stuff/http.erl	/^-module(http).$/;"	m
+isWordChar	stuff/lib_misc.erl	/^isWordChar(X) when $0=< X, X=<$9 -> true;$/;"	f	module:lib_misc
+isWordChar	stuff/lib_misc.erl	/^isWordChar(X) when $A=< X, X=<$Z -> true;$/;"	f	module:lib_misc
+isWordChar	stuff/lib_misc.erl	/^isWordChar(X) when $a=< X, X=<$z -> true;$/;"	f	module:lib_misc
+isWordChar	stuff/lib_misc.erl	/^isWordChar(_)  -> false.$/;"	f	module:lib_misc
+is_blank_line	stuff/lib_misc.erl	/^is_blank_line([$\\n|T]) -> is_blank_line(T);$/;"	f	module:lib_misc
+is_blank_line	stuff/lib_misc.erl	/^is_blank_line([$\\r|T]) -> is_blank_line(T);$/;"	f	module:lib_misc
+is_blank_line	stuff/lib_misc.erl	/^is_blank_line([$\\s|T]) -> is_blank_line(T);$/;"	f	module:lib_misc
+is_blank_line	stuff/lib_misc.erl	/^is_blank_line([$\\t|T]) -> is_blank_line(T);$/;"	f	module:lib_misc
+is_blank_line	stuff/lib_misc.erl	/^is_blank_line([]) -> true;$/;"	f	module:lib_misc
+is_blank_line	stuff/lib_misc.erl	/^is_blank_line(_)  -> false.$/;"	f	module:lib_misc
+is_empty_list	stuff/lib_misc.erl	/^is_empty_list(X) when list(X) -> false.$/;"	f	module:lib_misc
+is_empty_list	stuff/lib_misc.erl	/^is_empty_list([]) ->	true;$/;"	f	module:lib_misc
+is_prefix	stuff/lib_misc.erl	/^is_prefix([H|T], [H|T1]) -> is_prefix(T, T1);$/;"	f	module:lib_misc
+is_prefix	stuff/lib_misc.erl	/^is_prefix([], _)         -> true;$/;"	f	module:lib_misc
+is_prefix	stuff/lib_misc.erl	/^is_prefix(_, _)          -> false.$/;"	f	module:lib_misc
+keep_alive	stuff/lib_misc.erl	/^keep_alive(Name, Fun) ->$/;"	f	module:lib_misc
+last_modified	stuff/lib_misc.erl	/^last_modified(File) ->$/;"	f	module:lib_misc
+lib_misc	stuff/lib_misc.erl	/^-module(lib_misc).$/;"	m
+listen_sock	epoll.hpp	/^	int listen_sock, conn_sock;$/;"	m	class:myEpoll
+listen_sock	sock.hpp	/^	int listen_sock, conn_sock;$/;"	m	class:mySock
+longest_common_prefix	stuff/lib_misc.erl	/^longest_common_prefix(L) ->$/;"	f	module:lib_misc
+longest_common_prefix	stuff/lib_misc.erl	/^longest_common_prefix(Ls, L) ->$/;"	f	module:lib_misc
+lookup	pipe.cpp	/^myPipe::lookup(const char *path)$/;"	f	class:myPipe
+lookup	pipe.cpp	/^myPipe::lookup(const std::string& path)$/;"	f	class:myPipe
+lookup	stuff/lib_misc.erl	/^lookup(Key, [_|T])         -> lookup(Key, T);$/;"	f	module:lib_misc
+lookup	stuff/lib_misc.erl	/^lookup(Key, [{Key,Val}|_]) -> {ok, Val};$/;"	f	module:lib_misc
+lookup	stuff/lib_misc.erl	/^lookup(_, [])              -> error.$/;"	f	module:lib_misc
+loop	epoll.cpp	/^myEpoll::loop()$/;"	f	class:myEpoll
+loop	stuff/http.erl	/^loop(Socket) -> % hybrid$/;"	f	module:http
+loop1	stuff/http.erl	/^loop1(Socket) -> % nonblocking$/;"	f	module:http
+loop2	stuff/http.erl	/^loop2(Socket) -> % blocking$/;"	f	module:http
+ls	stuff/lib_misc.erl	/^ls(Dir) ->$/;"	f	module:lib_misc
+main	main.cpp	/^main(int argc, char *argv[])$/;"	f
+main	stuff/sum_fork_smpl/tcpcli09.c	/^main(int argc, char **argv)$/;"	f
+main	stuff/sum_fork_smpl/tcpserv04.c	/^main(int argc, char **argv)$/;"	f
+main	stuff/test_fork_exec.cpp	/^main(int argc, char *argv[])$/;"	f
+main	test/client.cpp	/^main(int argc, char **argv)$/;"	f
+main	test/tepoll.cpp	/^main(int argc, char *argv[])$/;"	f
+main	test/tpcre.cpp	/^main(int argc, char *argv[])$/;"	f
+main	test/tpipe.cpp	/^main(int argc, char *argv[])$/;"	f
+make_global	stuff/lib_misc.erl	/^make_global(Name, Fun) ->$/;"	f	module:lib_misc
+make_global	stuff/lib_misc.erl	/^make_global(Parent, Name, Fun) ->	$/;"	f	module:lib_misc
+make_test_strings	stuff/lib_misc.erl	/^make_test_strings(Str) ->$/;"	f	module:lib_misc
+make_test_strings	stuff/lib_misc.erl	/^make_test_strings(Str, Max, N) ->$/;"	f	module:lib_misc
+make_test_strings	stuff/lib_misc.erl	/^make_test_strings(_, Max, Max) -> [];$/;"	f	module:lib_misc
+max	stuff/sum_fork_smpl/olege.h	45;"	d
+merge_kv	stuff/lib_misc.erl	/^merge_kv(KV) ->  merge_kv(KV, dict:new()).$/;"	f	module:lib_misc
+merge_kv	stuff/lib_misc.erl	/^merge_kv([], D) ->$/;"	f	module:lib_misc
+merge_kv	stuff/lib_misc.erl	/^merge_kv([{Key,Val}|T], D0) ->$/;"	f	module:lib_misc
+min	stuff/sum_fork_smpl/olege.h	44;"	d
+mini_shell	stuff/lib_misc.erl	/^mini_shell() ->$/;"	f	module:lib_misc
+mini_shell	stuff/lib_misc.erl	/^mini_shell(Bindings0) ->$/;"	f	module:lib_misc
+monitor	stuff/lib_misc.erl	/^monitor(Term, Parent) ->$/;"	f	module:lib_misc
+msg	mydata.cc	/^	const char *msg;$/;"	m	class:myData	file:
+myData	mydata.cc	/^class myData$/;"	c	file:
+myData	mydata.cc	/^myData::myData()$/;"	f	class:myData
+myData	mydata.cc	/^myData::myData(const myData &other)$/;"	f	class:myData
+myEpoll	epoll.cpp	/^myEpoll::myEpoll()$/;"	f	class:myEpoll
+myEpoll	epoll.hpp	/^class myEpoll : private boost::noncopyable {$/;"	c
+myPCRE	pcre.cpp	/^myPCRE::myPCRE( const std::string &pattern )$/;"	f	class:myPCRE
+myPCRE	pcre.hpp	/^class myPCRE : private boost::noncopyable {$/;"	c
+myPipe	pipe.cpp	/^myPipe::myPipe(const char *path )$/;"	f	class:myPipe
+myPipe	pipe.hpp	/^class myPipe : private boost::noncopyable {$/;"	c
+mySock	sock.cpp	/^mySock::mySock()$/;"	f	class:mySock
+mySock	sock.cpp	/^mySock::mySock(int port)$/;"	f	class:mySock
+mySock	sock.hpp	/^class mySock : private boost::noncopyable {$/;"	c
+nano_client_eval	stuff/http.erl	/^nano_client_eval(Str) ->$/;"	f	module:http
+nano_get_url	stuff/http.erl	/^nano_get_url() ->$/;"	f	module:http
+nano_get_url	stuff/http.erl	/^nano_get_url(Host, Port) ->$/;"	f	module:http
+ndots	stuff/lib_misc.erl	/^ndots([$.|T]) -> 1 + ndots(T);$/;"	f	module:lib_misc
+ndots	stuff/lib_misc.erl	/^ndots([])     -> 0.$/;"	f	module:lib_misc
+ndots	stuff/lib_misc.erl	/^ndots([_|T])  -> ndots(T);$/;"	f	module:lib_misc
+nfds	epoll.hpp	/^	int nfds;$/;"	m	class:myEpoll
+odd	stuff/lib_misc.erl	/^odd(X) ->$/;"	f	module:lib_misc
+odds_and_evens	stuff/lib_misc.erl	/^odds_and_evens(L) ->$/;"	f	module:lib_misc
+odds_and_evens_acc	stuff/lib_misc.erl	/^odds_and_evens_acc(L) ->$/;"	f	module:lib_misc
+odds_and_evens_acc	stuff/lib_misc.erl	/^odds_and_evens_acc([H|T], Odds, Evens) ->$/;"	f	module:lib_misc
+odds_and_evens_acc	stuff/lib_misc.erl	/^odds_and_evens_acc([], Odds, Evens) ->$/;"	f	module:lib_misc
+on_exit	stuff/lib_misc.erl	/^on_exit(Pid, Fun) ->$/;"	f	module:lib_misc
+outOfDate	stuff/lib_misc.erl	/^outOfDate(In, Out) ->$/;"	f	module:lib_misc
+overflow	tqueue.cc	/^	unsigned int		overflow;$/;"	m	class:ThreadQueue	file:
+par_connect	stuff/http.erl	/^par_connect(Listen) ->$/;"	f	module:http
+partition	stuff/lib_misc.erl	/^partition(F, L) -> partition(F, L, [], []).$/;"	f	module:lib_misc
+partition	stuff/lib_misc.erl	/^partition(F, [H|T], Yes, No) ->$/;"	f	module:lib_misc
+partition	stuff/lib_misc.erl	/^partition(_, [], Yes, No) ->$/;"	f	module:lib_misc
+path1	pipe.hpp	/^	char *path1;$/;"	m	class:myPipe
+perms	stuff/lib_misc.erl	/^perms(L)  -> [[H|T] || H <- L, T <- perms(L--[H])].$/;"	f	module:lib_misc
+perms	stuff/lib_misc.erl	/^perms([]) -> [[]];$/;"	f	module:lib_misc
+pmap	stuff/lib_misc.erl	/^pmap(F, L) -> $/;"	f	module:lib_misc
+pmap1	stuff/lib_misc.erl	/^pmap1(F, L) -> $/;"	f	module:lib_misc
+pop	tqueue.cc	/^ThreadQueue<T>::pop() throw()$/;"	f	class:ThreadQueue
+priority_receive	stuff/lib_misc.erl	/^priority_receive() ->$/;"	f	module:lib_misc
+push	tqueue.cc	/^ThreadQueue<T>::push(T& x) throw()$/;"	f	class:ThreadQueue
+py	pipe.hpp	/^	const char *py;$/;"	m	class:myPipe
+pythag	stuff/lib_misc.erl	/^pythag(N) ->$/;"	f	module:lib_misc
+qsort	stuff/lib_misc.erl	/^qsort([Pivot|T]) ->$/;"	f	module:lib_misc
+qsort	stuff/lib_misc.erl	/^qsort([]) -> [];$/;"	f	module:lib_misc
+queue	tqueue.cc	/^	std::queue<T, std::list<T> > queue;$/;"	m	class:ThreadQueue	file:
+random_seed	stuff/lib_misc.erl	/^random_seed() ->$/;"	f	module:lib_misc
+re	pcre.hpp	/^	pcre *re;$/;"	m	class:myPCRE
+read_file_as_lines	stuff/lib_misc.erl	/^read_file_as_lines(File) ->    $/;"	f	module:lib_misc
+reading	test/client.cpp	/^reading(int sockfd)$/;"	f
+receive_data	stuff/http.erl	/^receive_data(Socket, SoFar) ->$/;"	f	module:http
+remove_duplicates	stuff/lib_misc.erl	/^remove_duplicates(L) ->$/;"	f	module:lib_misc
+remove_duplicates	stuff/lib_misc.erl	/^remove_duplicates([H|T], L)       -> remove_duplicates(T, [H|L]);$/;"	f	module:lib_misc
+remove_duplicates	stuff/lib_misc.erl	/^remove_duplicates([H|X=[H|_]], L) -> remove_duplicates(X, L);$/;"	f	module:lib_misc
+remove_duplicates	stuff/lib_misc.erl	/^remove_duplicates([], L)          -> L.$/;"	f	module:lib_misc
+remove_leading_whitespace	stuff/lib_misc.erl	/^remove_leading_whitespace(X) -> X.$/;"	f	module:lib_misc
+remove_leading_whitespace	stuff/lib_misc.erl	/^remove_leading_whitespace([$\\n|T]) -> remove_leading_whitespace(T);$/;"	f	module:lib_misc
+remove_leading_whitespace	stuff/lib_misc.erl	/^remove_leading_whitespace([$\\s|T]) -> remove_leading_whitespace(T);$/;"	f	module:lib_misc
+remove_leading_whitespace	stuff/lib_misc.erl	/^remove_leading_whitespace([$\\t|T]) -> remove_leading_whitespace(T);$/;"	f	module:lib_misc
+remove_prefix	stuff/lib_misc.erl	/^remove_prefix([H|T], [H|T1]) -> remove_prefix(T, T1);$/;"	f	module:lib_misc
+remove_prefix	stuff/lib_misc.erl	/^remove_prefix([], L)         -> L.$/;"	f	module:lib_misc
+remove_trailing_whitespace	stuff/lib_misc.erl	/^remove_trailing_whitespace(X) ->$/;"	f	module:lib_misc
+replace	stuff/lib_misc.erl	/^replace(Key, Val, Old) ->$/;"	f	module:lib_misc
+replace	stuff/lib_misc.erl	/^replace(Key, Val, [H|T], L) ->$/;"	f	module:lib_misc
+replace	stuff/lib_misc.erl	/^replace(Key, Val, [], L) ->$/;"	f	module:lib_misc
+replace	stuff/lib_misc.erl	/^replace(Key, Val1, [{Key,_Val}|T], L) ->$/;"	f	module:lib_misc
+result	stuff/sum_fork_smpl/sum.h	/^struct result {$/;"	s
+rpc	stuff/lib_misc.erl	/^rpc(Pid, Q) ->$/;"	f	module:lib_misc
+safe	stuff/lib_misc.erl	/^safe(Fun) ->$/;"	f	module:lib_misc
+send_file	pipe.cpp	/^myPipe::send_file(int output, int input, size_t len)$/;"	f	class:myPipe
+send_file	stuff/thread2_pipe.cc	/^send_file(const std::string& path, int sockfd)$/;"	f
+send_file	thread2.cc	/^send_file(const char *path, int sockfd)$/;"	f
+seq_loop	stuff/http.erl	/^seq_loop(Listen) ->$/;"	f	module:http
+servaddr	sock.hpp	/^	struct sockaddr_in servaddr;$/;"	m	class:mySock	typeref:struct:mySock::sockaddr_in
+setHandler	epoll.cpp	/^myEpoll::setHandler( epollFun *func )$/;"	f	class:myEpoll
+setMsg	mydata.cc	/^myData::setMsg(const char *str)$/;"	f	class:myData
+setfd	mydata.cc	/^myData::setfd(int fd)$/;"	f	class:myData
+setnonblocking	epoll.cpp	/^myEpoll::setnonblocking(int fd)$/;"	f	class:myEpoll
+setnonblocking	sock.cpp	/^mySock::setnonblocking(int fd)$/;"	f	class:mySock
+sig_chld	stuff/sum_fork_smpl/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+skip_blanks	stuff/lib_misc.erl	/^skip_blanks(X)       -> X.$/;"	f	module:lib_misc
+skip_blanks	stuff/lib_misc.erl	/^skip_blanks([$\\s|T]) -> skip_blanks(T);$/;"	f	module:lib_misc
+sleep	stuff/lib_misc.erl	/^sleep(T) ->$/;"	f	module:lib_misc
+sock	epoll.hpp	/^	mySock sock;$/;"	m	class:myEpoll
+sock_ntop	sock.cpp	/^mySock::sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f	class:mySock
+sock_write_200	stuff/thread2_pipe.cc	/^sock_write_200( int sockfd )$/;"	f
+sock_write_200	thread2.cc	/^sock_write_200( int sockfd )$/;"	f
+sock_write_404	stuff/thread2_pipe.cc	/^sock_write_404( int sockfd )$/;"	f
+sock_write_404	thread2.cc	/^sock_write_404( int sockfd )$/;"	f
+sock_write_all	stuff/thread2_pipe.cc	/^sock_write_all( int sockfd, FILE *file )$/;"	f
+sock_write_eof	thread2.cc	/^sock_write_eof( int sockfd )$/;"	f
+sockfd	mydata.cc	/^	int sockfd;$/;"	m	class:myData	file:
+spawn_monitor	stuff/lib_misc.erl	/^spawn_monitor(Term, true, Fun) ->$/;"	f	module:lib_misc
+spawn_monitor	stuff/lib_misc.erl	/^spawn_monitor(_, false, Fun) ->$/;"	f	module:lib_misc
+split	stuff/lib_misc.erl	/^split(F, L) -> split(F, L, [], []).$/;"	f	module:lib_misc
+split	stuff/lib_misc.erl	/^split(F, [H|T], True, False) ->$/;"	f	module:lib_misc
+split	stuff/lib_misc.erl	/^split(_, [], True, False) ->$/;"	f	module:lib_misc
+split_at_char	stuff/lib_misc.erl	/^split_at_char(Str, C) -> split_at_char(Str, C, []).$/;"	f	module:lib_misc
+split_at_char	stuff/lib_misc.erl	/^split_at_char([C|T], C, L) -> {yes, reverse(L), T};$/;"	f	module:lib_misc
+split_at_char	stuff/lib_misc.erl	/^split_at_char([H|T], C, L) -> split_at_char(T, C, [H|L]);$/;"	f	module:lib_misc
+split_at_char	stuff/lib_misc.erl	/^split_at_char([], _, _)    -> no.$/;"	f	module:lib_misc
+split_into_lines	stuff/lib_misc.erl	/^split_into_lines(Str, Ln, L) ->$/;"	f	module:lib_misc
+split_into_lines	stuff/lib_misc.erl	/^split_into_lines([], _, L) ->$/;"	f	module:lib_misc
+sqrt	stuff/lib_misc.erl	/^sqrt(X) ->$/;"	f	module:lib_misc
+sqrt	stuff/lib_misc.erl	/^sqrt(X) when X < 0 ->    $/;"	f	module:lib_misc
+start	epoll.cpp	/^myEpoll::start()$/;"	f	class:myEpoll
+start_nano_server	stuff/http.erl	/^start_nano_server() ->$/;"	f	module:http
+start_parallel_server	stuff/http.erl	/^start_parallel_server() ->$/;"	f	module:http
+start_seq_server	stuff/http.erl	/^start_seq_server() ->$/;"	f	module:http
+starter	stuff/lib_misc.erl	/^starter(Term, Fun) ->$/;"	f	module:lib_misc
+str_cli	stuff/sum_fork_smpl/str_cli09.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	test/client.cpp	/^str_cli(void* input)$/;"	f
+str_echo	stuff/sum_fork_smpl/str_echo09.c	/^str_echo(int sockfd)$/;"	f
+string2term	stuff/lib_misc.erl	/^string2term(Str) ->$/;"	f	module:lib_misc
+string2value	stuff/lib_misc.erl	/^string2value(Str) ->$/;"	f	module:lib_misc
+string2value	stuff/lib_misc.erl	/^string2value(Str, Bindings0) ->$/;"	f	module:lib_misc
+sum	stuff/lib_misc.erl	/^sum(L) -> sum(L, 0).$/;"	f	module:lib_misc
+sum	stuff/lib_misc.erl	/^sum([H|T], N) -> sum(T, H+N).$/;"	f	module:lib_misc
+sum	stuff/lib_misc.erl	/^sum([], N)    -> N;$/;"	f	module:lib_misc
+sum	stuff/sum_fork_smpl/sum.h	/^  long	sum;$/;"	m	struct:result
+term2file	stuff/lib_misc.erl	/^term2file(File, Term) ->$/;"	f	module:lib_misc
+term2string	stuff/lib_misc.erl	/^term2string(Term) ->$/;"	f	module:lib_misc
+test	pcre.cpp	/^myPCRE::test(const char *str)$/;"	f	class:myPCRE
+test	pcre.cpp	/^myPCRE::test(const std::string &str)$/;"	f	class:myPCRE
+test_function_over_substrings	stuff/lib_misc.erl	/^test_function_over_substrings(F, Str) ->$/;"	f	module:lib_misc
+too_hot	stuff/lib_misc.erl	/^too_hot() ->$/;"	f	module:lib_misc
+trim_blanks	stuff/lib_misc.erl	/^trim_blanks(X) -> reverse(skip_blanks(reverse(X))).$/;"	f	module:lib_misc
+unconsult	stuff/lib_misc.erl	/^unconsult(File, L) ->$/;"	f	module:lib_misc
+use_fd	main.cpp	/^use_fd( int sockfd)$/;"	f
+use_fd	test/tepoll.cpp	/^use_fd( int sockfd)$/;"	f
+waitOnQueue	stuff/thread2_pipe.cc	/^waitOnQueue(void *argv1){\/\/ throw()$/;"	f
+waitOnQueue	thread2.cc	/^waitOnQueue(void *argv1){\/\/ throw()$/;"	f
+wait_mtx	tqueue.cc	/^	pthread_mutex_t		wait_mtx;$/;"	m	class:ThreadQueue	file:
+~ThreadQueue	tqueue.cc	/^ThreadQueue<T>::~ThreadQueue() throw()$/;"	f	class:ThreadQueue
+~myData	mydata.cc	/^myData::~myData(){$/;"	f	class:myData
+~myEpoll	epoll.cpp	/^myEpoll::~myEpoll()$/;"	f	class:myEpoll
+~myPCRE	pcre.cpp	/^myPCRE::~myPCRE( )$/;"	f	class:myPCRE
+~myPipe	pipe.cpp	/^myPipe::~myPipe()$/;"	f	class:myPipe
+~mySock	sock.cpp	/^mySock::~mySock()$/;"	f	class:mySock

@@ -1,0 +1,18 @@
+Project consist of main.cpp, thread2.cc, tqueue.cc, mydata.cc files
+and sock.cpp, pipe.cpp, pcre.cpp, epoll.cpp modules.
+Client test/client.cpp.
+
+Just try "make", "make run"!
+
+For test programm use:
+netcat 127.0.0.1 9877
+get 1.py http/1.0
+get i.txt http/1.0
+get trash lolo
+
+For client:
+netcat -l -p 9877
+
+Test makes with Makefile in "./test/" but run only hand
+you can test all module with tMODULE_NAME.cpp files
+

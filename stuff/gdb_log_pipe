@@ -1,0 +1,47 @@
+(gdb) p argv2[0]
+$1 = 0x804b008 "python"
+(gdb) p argv2[1]
+$2 = 0x804b018 "../1.py"
+(gdb) s
+79			printf("Parrent\n");
+(gdb) Child
+argv2 = python ../1.py
+error: fork child: Bad address
+
+code don't work:
+	//! child
+	printf("Child\n");
+	std::cerr << "argv2 = " << argv2[0] << " " << argv2[1] << std::endl;
+	// cout is 1
+	close (filedes[0]);
+	dup2(filedes[1],1);
+	close(filedes[1]);
+	// set new process
+	execvp(argv2[0], argv2);
+	perror("error: fork child");
+	exit(0);
+
+normal code:
+	char* argv2[2];
+	argv2[0] = "python";
+	argv2[1] = "../1.py";
+	
+	execvp(argv2[0], argv2);
+	perror("error: exec");
+	exit(1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

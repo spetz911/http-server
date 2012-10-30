@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/19/trunk/test_content
+END
+img.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/19/trunk/test_content/img.png
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/19/trunk/test_content/index.html
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/19/trunk/test_content/favicon.ico
+END
